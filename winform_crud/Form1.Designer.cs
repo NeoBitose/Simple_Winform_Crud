@@ -100,6 +100,7 @@
             // 
             // nama
             // 
+            this.nama.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nama.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nama.Location = new System.Drawing.Point(6, 32);
             this.nama.Name = "nama";
@@ -124,114 +125,128 @@
             this.groupBox1.Controls.Add(this.provinsi);
             this.groupBox1.Controls.Add(this.deskripsi);
             this.groupBox1.Controls.Add(this.nama);
-            this.groupBox1.Location = new System.Drawing.Point(20, 21);
+            this.groupBox1.Location = new System.Drawing.Point(20, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(248, 431);
+            this.groupBox1.Size = new System.Drawing.Size(248, 440);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 341);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(2, 338);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(76, 13);
+            this.label8.Size = new System.Drawing.Size(101, 17);
             this.label8.TabIndex = 20;
             this.label8.Text = "Luas Destinasi";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 296);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(4, 293);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(28, 13);
+            this.label7.Size = new System.Drawing.Size(37, 17);
             this.label7.TabIndex = 19;
             this.label7.Text = "Tarif";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 249);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(3, 250);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 13);
+            this.label6.Size = new System.Drawing.Size(42, 17);
             this.label6.TabIndex = 18;
             this.label6.Text = "Jalan";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 203);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(2, 201);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
+            this.label5.Size = new System.Drawing.Size(79, 17);
             this.label5.TabIndex = 17;
             this.label5.Text = "Kecamatan";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 156);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(2, 154);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 13);
+            this.label4.Size = new System.Drawing.Size(37, 17);
             this.label4.TabIndex = 16;
             this.label4.Text = "Kota";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 109);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 108);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.Size = new System.Drawing.Size(58, 17);
             this.label3.TabIndex = 15;
             this.label3.Text = "Provinsi";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 64);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(4, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.Size = new System.Drawing.Size(128, 17);
             this.label2.TabIndex = 14;
             this.label2.Text = "Deskripsi Destinasi";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 16);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(4, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.Size = new System.Drawing.Size(107, 17);
             this.label1.TabIndex = 13;
             this.label1.Text = "Nama Destinasi";
             // 
             // tarif
             // 
-            this.tarif.Location = new System.Drawing.Point(8, 314);
+            this.tarif.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tarif.Location = new System.Drawing.Point(6, 313);
             this.tarif.Name = "tarif";
             this.tarif.Size = new System.Drawing.Size(214, 20);
             this.tarif.TabIndex = 12;
             // 
             // luas
             // 
-            this.luas.Location = new System.Drawing.Point(8, 359);
+            this.luas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.luas.Location = new System.Drawing.Point(6, 358);
             this.luas.Name = "luas";
             this.luas.Size = new System.Drawing.Size(214, 20);
             this.luas.TabIndex = 11;
             // 
             // jalan
             // 
-            this.jalan.Location = new System.Drawing.Point(7, 268);
+            this.jalan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.jalan.Location = new System.Drawing.Point(6, 270);
             this.jalan.Name = "jalan";
             this.jalan.Size = new System.Drawing.Size(214, 20);
             this.jalan.TabIndex = 10;
             // 
             // kecamatan
             // 
-            this.kecamatan.Location = new System.Drawing.Point(7, 221);
+            this.kecamatan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.kecamatan.Location = new System.Drawing.Point(6, 223);
             this.kecamatan.Name = "kecamatan";
             this.kecamatan.Size = new System.Drawing.Size(214, 20);
             this.kecamatan.TabIndex = 9;
+            this.kecamatan.TextChanged += new System.EventHandler(this.kecamatan_TextChanged);
             // 
             // kota
             // 
+            this.kota.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kota.Location = new System.Drawing.Point(6, 174);
             this.kota.Name = "kota";
             this.kota.Size = new System.Drawing.Size(214, 20);
@@ -239,14 +254,16 @@
             // 
             // provinsi
             // 
-            this.provinsi.Location = new System.Drawing.Point(8, 127);
+            this.provinsi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.provinsi.Location = new System.Drawing.Point(6, 130);
             this.provinsi.Name = "provinsi";
             this.provinsi.Size = new System.Drawing.Size(214, 20);
             this.provinsi.TabIndex = 7;
             // 
             // deskripsi
             // 
-            this.deskripsi.Location = new System.Drawing.Point(6, 80);
+            this.deskripsi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.deskripsi.Location = new System.Drawing.Point(6, 82);
             this.deskripsi.Name = "deskripsi";
             this.deskripsi.Size = new System.Drawing.Size(214, 20);
             this.deskripsi.TabIndex = 6;

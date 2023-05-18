@@ -119,5 +119,10 @@ namespace winform_crud
                 dataGridView1.CurrentRow.Selected = false;
             }
         }
+
+        private void kecamatan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
